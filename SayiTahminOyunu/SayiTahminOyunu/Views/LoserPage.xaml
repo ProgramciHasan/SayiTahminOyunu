@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SayiTahminOyunu.Views.LoserPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Label BackgroundColor="Black" TextColor="White"  Text="Malesef Kaybettiniz!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label   TextColor="White"   x:Name="lblDurum" BackgroundColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Clicked="Button_Clicked"    Text="Yeniden Oyna"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

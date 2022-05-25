@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SayiTahminOyunu.MainPage">
+
+    <StackLayout>
+        <Label Text="Kalan Hakkımız" FontAttributes="Bold" FontSize="24" HorizontalTextAlignment="Center"
+        HorizontalOptions="Center"
+       VerticalOptions="Start"/>
+
+        <Label Text="10" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Start" x:Name="lblMask"></Label>
+        <BoxView  HeightRequest="150"  VerticalOptions="Center" HorizontalOptions="FillAndExpand"  BackgroundColor="Aqua" x:Name="boxView">
+      </BoxView>
+        <Label Text="10" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Start" x:Name="durum"></Label>
+
+
+
+
+        <Entry VerticalOptions="Center"  HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center"  x:Name="entrySayi"></Entry>
+        <Button Clicked="Button_Clicked" Text="Tahmin Et" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+
+
+
+    </StackLayout>
+
+</ContentPage>
